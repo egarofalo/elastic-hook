@@ -1,8 +1,8 @@
 <?php
 
-namespace CoDevelopers\Elastic\Component;
+namespace CoDevelopers\WpHook;
 
-class Action extends Hook
+class Action extends WpHook
 {
     public function addHook(string $tag, callable $functionToAdd, int $priority, int $acceptedArgs)
     {

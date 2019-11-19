@@ -1,8 +1,8 @@
 <?php
 
-namespace CoDevelopers\Elastic\Component;
+namespace CoDevelopers\WpHook;
 
-abstract class Hook implements \ArrayAccess
+abstract class WpHook implements \ArrayAccess
 {
     protected $hooks;
 
